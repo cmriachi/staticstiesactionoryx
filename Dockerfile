@@ -1,4 +1,4 @@
-FROM criachi/basic-deploy:cscriachigeoresources
+FROM criachi/basic-deploy:routetest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
