@@ -1,4 +1,4 @@
-FROM criachi/mishapos7geoimg:latest
+FROM criachi/mishapos5geoimg:latest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
